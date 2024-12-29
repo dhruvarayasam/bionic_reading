@@ -5,5 +5,5 @@ Example of how bionic reading looks on an example webpage:
 <img width="537" alt="image" src="image.png" />
 
 
-Example of bionic reading in action (Larry David's Wikipedia page):\n
+Example of bionic reading in action (Larry David's Wikipedia page):
 <img width="619" alt="image" src="image-1.png" />
