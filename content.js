@@ -7,7 +7,8 @@ const walker = document.createTreeWalker(
     NodeFilter.SHOW_ELEMENT,
     {
         acceptNode: (node) => {
-            return node.tagName === "P" ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+            const validTags = ['P', 'LI', 'DT', 'DD', 'LABEL'];
+            return validTags.includes(node.tagName) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
         }
     }
 );
