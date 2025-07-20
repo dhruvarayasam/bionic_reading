@@ -3,7 +3,6 @@
     "name": "Bionic Reading Enhancer",
     "version": "1.0",
     "description": "Enhances webpages with Bionic Reading.",
-    "permissions": ["activeTab"],
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
